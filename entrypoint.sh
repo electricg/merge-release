@@ -25,7 +25,7 @@ git config user.name "Merge Release"
 git config user.email "merge-release@users.noreply.github.com"
 git remote add merge-release "${remote_repo}"
 
-if [ "$GITHUB_REPOSITORY" = "mikeal/merge-release" ]
+if [ "$GITHUB_REPOSITORY" = "electricg/merge-release" ]
 then
   echo "node merge-release-run.js"
   sh -c "node merge-release-run.js $*"
